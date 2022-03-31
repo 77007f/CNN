@@ -174,3 +174,8 @@ model.fit(X_train, Y_train,
 score=model.evaluate(X_test, Y_test, verbose=1)  # Evaluate the trained model on the test set!
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
+
+################## 데이터 셋 저장
+
+from tensorflow.python.keras.models import load_model
+model.save('mnist_mlp_model2.h5')
