@@ -172,4 +172,4 @@ print('Test accuracy:', score[1])
 ######################################################모델 저장하기
 
 from tensorflow.python.keras.models import load_model
-model.save('mnist_mlp_model.h5')
+model.save('new_model.h5')

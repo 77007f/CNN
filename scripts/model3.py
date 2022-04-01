@@ -182,4 +182,4 @@ print('Test accuracy:', score[1])
 ######### 데이터 셋 저장 ########
 
 from tensorflow.python.keras.models import load_model
-model.save('mnist_mlp_model3.h5')
+model.save('new_model3.h5')
